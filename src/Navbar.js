@@ -1,17 +1,16 @@
-import React from 'react'
-import logo from './assets/logo.svg'
-import { Link } from 'react-router-dom'
-import styled from 'styled-components'
-const Navbar = () => {
-  return (
-    <Wrapper>
-      <div className='nav-header'>
-        <img src={logo} alt='logo' />
-        <Link to='/'>Home</Link>
-      </div>
-    </Wrapper>
-  )
-}
+import React from 'react';
+import { Link } from 'react-router-dom';
+import styled from 'styled-components';
+import logo from './assets/logo.svg';
+
+const Navbar = () => (
+  <Wrapper>
+    <div className="nav-header">
+      <img src={logo} alt="logo" />
+      <Link to="/">Home</Link>
+    </div>
+  </Wrapper>
+);
 
 const Wrapper = styled.nav`
   height: 5rem;
@@ -36,6 +35,6 @@ const Wrapper = styled.nav`
     letter-spacing: var(--spacing);
     color: var(--white);
   }
-`
+`;
 
-export default Navbar
+export default Navbar;

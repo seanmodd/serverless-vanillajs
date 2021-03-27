@@ -2,9 +2,7 @@
 // exports
 // const person = { name: 'john' }
 
-exports.handler = async (event, context, cb) => {
-  return {
-    statusCode: 200,
-    body: 'Our First Netlify Function Example',
-  }
-}
+exports.handler = async (event, context, cb) => ({
+  statusCode: 200,
+  body: 'Our First Netlify Function Example',
+});

@@ -1,7 +1,5 @@
-import React from 'react'
+import React from 'react';
 
-const Stripe = () => {
-  return <section className='page-container'>Stripe</section>
-}
+const Stripe = () => <section className="page-container">Stripe</section>;
 
-export default Stripe
+export default Stripe;

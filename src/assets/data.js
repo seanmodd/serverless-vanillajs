@@ -35,6 +35,6 @@ const items = [
     },
     price: 9.99,
   },
-]
+];
 
-module.exports = items
+module.exports = items;

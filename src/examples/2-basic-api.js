@@ -1,7 +1,5 @@
-import React from 'react'
+import React from 'react';
 
-const BasicAPI = () => {
-  return <section className='page-container'>Basic API</section>
-}
+const BasicAPI = () => <section className="page-container">Basic API</section>;
 
-export default BasicAPI
+export default BasicAPI;

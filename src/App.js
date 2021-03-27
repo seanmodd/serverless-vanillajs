@@ -1,5 +1,5 @@
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import Navbar from './Navbar'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Navbar from './Navbar';
 import {
   Home,
   Hello,
@@ -10,42 +10,43 @@ import {
   Newsletter,
   Email,
   Stripe,
-} from './examples'
+} from './examples';
+
 function App() {
   return (
     <Router>
       <Navbar />
       <Switch>
-        <Route exact path='/'>
+        <Route exact path="/">
           <Home />
         </Route>
-        <Route path='/1-hello'>
+        <Route path="/1-hello">
           <Hello />
         </Route>
-        <Route path='/2-basic-api'>
+        <Route path="/2-basic-api">
           <BasicAPI />
         </Route>
-        <Route path='/3-airtable'>
+        <Route path="/3-airtable">
           <Airtable />
         </Route>
-        <Route path='/4-survey'>
+        <Route path="/4-survey">
           <Survey />
         </Route>
-        <Route path='/5-weather'>
+        <Route path="/5-weather">
           <Weather />
         </Route>
-        <Route path='/6-newsletter'>
+        <Route path="/6-newsletter">
           <Newsletter />
         </Route>
-        <Route path='/7-email'>
+        <Route path="/7-email">
           <Email />
         </Route>
-        <Route path='/8-stripe'>
+        <Route path="/8-stripe">
           <Stripe />
         </Route>
       </Switch>
     </Router>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -1,11 +1,9 @@
-const items = require('../src/assets/data')
+const items = require('../src/assets/data');
 
-exports.handler = async (event, context, cb) => {
-  return {
-    headers: {
-      'Access-Control-Allow-Origin': '*',
-    },
-    statusCode: 200,
-    body: JSON.stringify(items),
-  }
-}
+exports.handler = async (event, context, cb) => ({
+  headers: {
+    'Access-Control-Allow-Origin': '*',
+  },
+  statusCode: 200,
+  body: JSON.stringify(items),
+});

@@ -1,7 +1,5 @@
-import React from 'react'
+import React from 'react';
 
-const Airtable = () => {
-  return <section className='page-container'>Airtable</section>
-}
+const Airtable = () => <section className="page-container">Airtable</section>;
 
-export default Airtable
+export default Airtable;

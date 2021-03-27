@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-const Newsletter = () => {
-  return <section className='page-container'>Newsletter</section>
-}
+const Newsletter = () => (
+  <section className="page-container">Newsletter</section>
+);
 
-export default Newsletter
+export default Newsletter;

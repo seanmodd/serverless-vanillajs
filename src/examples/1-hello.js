@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-const Hello = () => {
-  return <section className='page-container'>First Component</section>
-}
+const Hello = () => (
+  <section className="page-container">First Component</section>
+);
 
-export default Hello
+export default Hello;
